@@ -1,0 +1,6 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+www.classcentral.com	TRUE	/report/	FALSE	1999999999	ppwp_wp_session	f66fddfaecf8fee427eb861015a2d22d%7C%7C1677934550%7C%7C1677934190
+www.classcentral.com	TRUE	/	FALSE	1999999999	PHPSESSID	b27pbq0oup64rgdcrtfbbehcph
+www.classcentral.com	TRUE	/	FALSE	1999999999	samesite	lax
+
