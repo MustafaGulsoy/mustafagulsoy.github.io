@@ -7788,21 +7788,23 @@
 
     <header data-cc-header="nosearch" class="z-top relative">
       <div class="relative bg-white cc-header border-bottom border-gray-light">
-
-        <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+        <div style="display: none; ">
+          <script type="text/javascript"
+            src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+        </div>
         <script type="text/javascript">
-            function googleTranslateElementInit() {
-                setCookie('googtrans', '/en/hi', 1);
-                new google.translate.TranslateElement({ pageLanguage: 'ES', layout: google.translate.TranslateElement.InlineLayout.SIMPLE }, 'google_translate_element');
-            }
-            function setCookie(key, value, expiry) {
-                var expires = new Date();
-                expires.setTime(expires.getTime() + (expiry * 24 * 60 * 60 * 1000));
-                document.cookie = key + '=' + value + ';expires=' + expires.toUTCString();
-            }
+          function googleTranslateElementInit() {
+            setCookie('googtrans', '/en/hi', 1);
+            new google.translate.TranslateElement({ pageLanguage: 'ES', layout: google.translate.TranslateElement.InlineLayout.SIMPLE }, 'google_translate_element');
+          }
+          function setCookie(key, value, expiry) {
+            var expires = new Date();
+            expires.setTime(expires.getTime() + (expiry * 24 * 60 * 60 * 1000));
+            document.cookie = key + '=' + value + ';expires=' + expires.toUTCString();
+          }
         </script>
         <div id="google_translate_element"></div>
-    
+
         <!--   <script src="http:translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">  </script>
      -->
 
