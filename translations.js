@@ -24,14 +24,12 @@ const translations = {
                 description: "AI-powered Amazon dropshipping education and consultancy platform that enables individuals to achieve economic independence through digital commerce.",
                 detailedDescription: "DropGPT is a comprehensive AI-enhanced education platform that teaches Amazon dropshipping business model in accordance with Amazon's official policies. The platform provides step-by-step training system, 24/7 AI support, and one year of continued assistance after training completion.",
                 whatIDid: [
-                    "Developed AI-powered chatbot system for 24/7 student support and real-time business decision assistance",
-                    "Built comprehensive training management system using .NET Core and Angular for course delivery and progress tracking",
-                    "Implemented AI algorithms for product research, pricing optimization, and market analysis",
-                    "Created mobile application using Flutter for on-the-go access to training materials and AI assistance",
-                    "Designed and developed RESTful APIs for integrating with Amazon's seller platform and analytics systems",
-                    "Implemented RabbitMQ message queuing for handling asynchronous tasks like data processing and notifications"
+                    "Developed OpenID-authenticated AI chatbot system for 24/7 student support and real-time question-answering",
+                    "Implemented secure authentication flow using OpenID Connect for user identity management",
+                    "Built conversational AI system using LangChain and LLM integration for intelligent responses",
+                    "Designed and developed chat interface with real-time messaging capabilities"
                 ],
-                stats: ["AI-Powered", "Educational Platform"]
+                stats: ["AI-Powered", "Chatbot"]
             },
             minder: {
                 title: "Minder",
@@ -208,14 +206,12 @@ const translations = {
                 description: "Bireylerin dijital ticaret yoluyla ekonomik bağımsızlık kazanmalarını sağlayan, yapay zeka destekli Amazon dropshipping eğitim ve danışmanlık platformu.",
                 detailedDescription: "DropGPT, Amazon'un resmi politikalarına uygun olarak Amazon dropshipping iş modelini öğreten kapsamlı bir yapay zeka destekli eğitim platformudur. Platform, adım adım eğitim sistemi, 7/24 AI desteği ve eğitim tamamlandıktan sonra bir yıl sürekli yardım sağlar.",
                 whatIDid: [
-                    "7/24 öğrenci desteği ve gerçek zamanlı iş kararı yardımı için yapay zeka destekli chatbot sistemi geliştirdim",
-                    ".NET Core ve Angular kullanarak kurs dağıtımı ve ilerleme takibi için kapsamlı eğitim yönetim sistemi oluşturdum",
-                    "Ürün araştırması, fiyat optimizasyonu ve pazar analizi için AI algoritmaları uyguladım",
-                    "Eğitim materyallerine ve AI yardımına hareket halindeyken erişim için Flutter kullanarak mobil uygulama oluşturdum",
-                    "Amazon satıcı platformu ve analitik sistemleriyle entegrasyon için RESTful API'ler tasarlayıp geliştirdim",
-                    "Veri işleme ve bildirimler gibi asenkron görevleri yönetmek için RabbitMQ mesaj kuyruğu uyguladım"
+                    "7/24 öğrenci desteği ve gerçek zamanlı soru-cevap için OpenID kimlik doğrulamalı AI chatbot sistemi geliştirdim",
+                    "Kullanıcı kimlik yönetimi için OpenID Connect kullanarak güvenli kimlik doğrulama akışı uyguladım",
+                    "Akıllı yanıtlar için LangChain ve LLM entegrasyonu kullanarak konuşma yapay zeka sistemi oluşturdum",
+                    "Gerçek zamanlı mesajlaşma yetenekleriyle sohbet arayüzü tasarlayıp geliştirdim"
                 ],
-                stats: ["AI Destekli", "Eğitim Platformu"]
+                stats: ["AI Destekli", "Chatbot"]
             },
             minder: {
                 title: "Minder",
