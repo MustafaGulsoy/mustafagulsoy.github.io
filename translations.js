@@ -39,14 +39,14 @@ const translations = {
             easyway: {
                 title: "EasyWay",
                 year: "2023-2024",
-                description: "Cross-platform educational game developed at Edulog, compatible with web, mobile, VR, and PC platforms using Unity.",
-                stats: ["Multi-platform", "Unity"]
+                description: "Full-stack educational platform built with modern technologies including Angular frontend, .NET Core backend, AI-powered features, and Flutter mobile app.",
+                stats: ["Full-Stack", "Educational"]
             },
             minder: {
                 title: "Minder",
                 year: "2023-2024",
-                description: "Innovative game project developed with Ultima Stella, showcasing expertise in managing multiple game projects simultaneously.",
-                stats: ["VR Ready", "Team Project"]
+                description: "Modern web and mobile application built with Angular, .NET Core backend, AI-powered features, message queuing with RabbitMQ, and Flutter mobile app.",
+                stats: ["Full-Stack", "AI-Powered"]
             }
         },
         experience: {
@@ -157,14 +157,14 @@ const translations = {
             easyway: {
                 title: "EasyWay",
                 year: "2023-2024",
-                description: "Edulog'da geliştirdiğim platformlar arası eğitim oyunu. Unity kullanarak web, mobil, VR ve PC platformlarıyla uyumlu.",
-                stats: ["Çok Platformlu", "Unity"]
+                description: "Angular frontend, .NET Core backend, AI destekli özellikler ve Flutter mobil uygulama ile geliştirilmiş modern full-stack eğitim platformu.",
+                stats: ["Full-Stack", "Eğitim"]
             },
             minder: {
                 title: "Minder",
                 year: "2023-2024",
-                description: "Ultima Stella ile geliştirdiğim yenilikçi oyun projesi. Aynı anda birden fazla oyun projesini yönetme uzmanlığımı gösteriyor.",
-                stats: ["VR Desteği", "Takım Projesi"]
+                description: "Angular, .NET Core backend, AI destekli özellikler, RabbitMQ mesaj kuyruğu ve Flutter mobil uygulama ile geliştirilmiş modern web ve mobil uygulama.",
+                stats: ["Full-Stack", "AI Destekli"]
             }
         },
         experience: {
