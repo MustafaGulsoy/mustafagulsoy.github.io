@@ -336,6 +336,36 @@
             }
         });
 
+        // Update all lists with data-i18n-list attribute
+        document.querySelectorAll('[data-i18n-list]').forEach(listElement => {
+            const key = listElement.dataset.i18nList;
+            const keys = key.split('.');
+            let value = t;
+
+            for (let k of keys) {
+                value = value[k];
+                if (!value) break;
+            }
+
+            if (value && Array.isArray(value)) {
+                // Clear existing list items
+                listElement.innerHTML = '';
+
+                // Add translated list items
+                value.forEach(item => {
+                    const li = document.createElement('li');
+                    li.textContent = item;
+                    listElement.appendChild(li);
+                });
+            }
+        });
+
+        // Update summary text
+        const summaries = document.querySelectorAll('.project-details summary');
+        summaries.forEach(summary => {
+            summary.textContent = lang === 'tr' ? 'Neler Yaptım' : 'What I Did';
+        });
+
         // Update HTML lang attribute
         document.documentElement.lang = lang;
     }
