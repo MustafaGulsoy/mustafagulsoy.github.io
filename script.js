@@ -352,6 +352,34 @@
     }
 
     // ============================================
+    // PROJECT IMAGE CAROUSEL
+    // ============================================
+    function initProjectCarousel() {
+        const carousels = document.querySelectorAll('.project-image-carousel');
+
+        carousels.forEach(carousel => {
+            const images = carousel.querySelectorAll('.project-image');
+            if (images.length <= 1) return; // Skip if only one image
+
+            let currentIndex = 0;
+
+            function rotateImages() {
+                // Remove active class from current image
+                images[currentIndex].classList.remove('active');
+
+                // Move to next image (loop back to 0 if at end)
+                currentIndex = (currentIndex + 1) % images.length;
+
+                // Add active class to new image
+                images[currentIndex].classList.add('active');
+            }
+
+            // Rotate every 3 seconds (3000ms)
+            setInterval(rotateImages, 3000);
+        });
+    }
+
+    // ============================================
     // INITIALIZE ALL FEATURES
     // ============================================
     function init() {
@@ -363,6 +391,7 @@
 
         // Initialize all features
         initLanguageSwitcher();
+        initProjectCarousel();
         initSmoothScroll();
         initScrollAnimations();
         initActiveNavigation();

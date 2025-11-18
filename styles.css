@@ -268,15 +268,33 @@ section {
     border: 1px solid var(--color-border);
 }
 
+.project-image-carousel {
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin-bottom: var(--spacing-md);
+    overflow: hidden;
+    border-radius: var(--border-radius);
+}
+
 .project-image {
     width: 100%;
     max-width: 100%;
     height: auto;
     border-radius: var(--border-radius);
-    margin-bottom: var(--spacing-md);
     object-fit: cover;
     aspect-ratio: 16 / 9;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.8s ease-in-out;
+}
+
+.project-image.active {
+    position: relative;
+    opacity: 1;
 }
 
 .project-card.featured .project-image {
