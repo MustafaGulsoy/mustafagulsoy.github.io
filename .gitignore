@@ -1,0 +1,83 @@
+# Portfolio Website - Git Ignore File
+
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# Temporary Files
+*.tmp
+*.temp
+*.log
+*.cache
+
+# Backup Files
+*.bak
+*.backup
+*~
+
+# Node.js (if you add npm later)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Build Files (if you add build process)
+dist/
+build/
+*.min.css
+*.min.js
+
+# Environment Files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Dependencies
+bower_components/
+
+# Documentation Builds
+docs/_build/
+
+# Misc
+.sass-cache/
+connect.lock
+coverage/
+.grunt
+lib-cov
+*.seed
+*.pid.lock
+
+# Test Files
+test-results/
+*.test.js
+
+# Security
+*.pem
+*.key
+*.cert
+
+# Personal Notes (optional)
+NOTES.md
+TODO.md
+.notes/
