@@ -73,21 +73,21 @@ const translations = {
         about: {
             intro: "I'm a <strong>Computer Engineer</strong> and <strong>Game Developer</strong> based in Mersin, Turkey. I graduated from Çukurova University in 2024 and currently work at <strong>Kardelen Yazılım</strong> as an AI Developer.",
             expertise: "My expertise spans both game development and AI systems. I specialize in <strong>Unity/Unreal Engine</strong>, <strong>.NET Core</strong>, and <strong>AI/ML technologies</strong>. I'm passionate about creating engaging experiences and intelligent systems that make a real difference.",
-            interests: "Outside of work, I lead the <strong>1.5 Adana AITO</strong> underwater robotics team and serve as a <strong>NASA Local Leader</strong>, organizing Space Apps Challenge events. I'm particularly interested in making technology more accessible through education and open-source contributions.",
+            interests: "I'm passionate about <strong>AI/ML technologies</strong>, particularly in RAG systems, LLM applications, and computer vision. I enjoy building practical solutions that solve real-world problems and contributing to open-source projects that make technology more accessible to everyone.",
             highlights: "Highlights",
             highlightsList: [
                 "🏆 SAF2023 Underwater Vehicle Competition - Champion (Azerbaijan)",
-                "🚀 NASA Local Leader - Space Apps Challenge Organizer",
-                "🔬 TÜBITAK Research Project Support (Mudhiş)",
-                "💼 AI Developer at Kardelen Yazılım",
+                "🔬 TÜBITAK Research Project Support (Mudhiş Smart Toothbrush)",
+                "💼 AI Developer at Kardelen Yazılım (Healthcare AI Systems)",
                 "🎓 Computer Engineering, Çukurova University (2024)",
-                "👥 Software Team Leader, 1.5 Adana AITO (2022-2024)"
+                "🎮 Cross-platform Game Development (Unity, VR, Mobile)",
+                "🤖 Production AI/ML Systems (LangChain, RAG, Computer Vision)"
             ],
             technologies: "Technologies",
             techCategories: {
                 ai: {
                     title: "AI & ML",
-                    list: "PyTorch, TensorFlow, .NET ML, OpenCV"
+                    list: "PyTorch, TensorFlow, LangChain, OpenCV, RAG, LLMs"
                 },
                 game: {
                     title: "Game Development",
@@ -191,21 +191,21 @@ const translations = {
         about: {
             intro: "Mersin, Türkiye'de yaşayan bir <strong>Bilgisayar Mühendisi</strong> ve <strong>Oyun Geliştiricisiyim</strong>. 2024 yılında Çukurova Üniversitesi'nden mezun oldum ve şu anda <strong>Kardelen Yazılım</strong>'da Yapay Zeka Geliştiricisi olarak çalışıyorum.",
             expertise: "Uzmanlığım hem oyun geliştirme hem de yapay zeka sistemlerini kapsıyor. <strong>Unity/Unreal Engine</strong>, <strong>.NET Core</strong> ve <strong>AI/ML teknolojilerinde</strong> uzmanım. Gerçek fark yaratan ilgi çekici deneyimler ve akıllı sistemler oluşturma konusunda tutkuluyum.",
-            interests: "İş dışında, <strong>1.5 Adana AITO</strong> sualtı robotik takımını yönetiyor ve <strong>NASA Local Leader</strong> olarak Space Apps Challenge etkinlikleri düzenliyorum. Özellikle eğitim ve açık kaynak katkılarıyla teknolojiyi daha erişilebilir hale getirmekle ilgileniyorum.",
+            interests: "<strong>AI/ML teknolojileri</strong>, özellikle RAG sistemleri, LLM uygulamaları ve bilgisayar görüsü konusunda tutkulu biriyim. Gerçek dünya problemlerini çözen pratik çözümler geliştirmekten ve teknolojiyi herkes için daha erişilebilir kılan açık kaynak projelere katkıda bulunmaktan keyif alıyorum.",
             highlights: "Öne Çıkanlar",
             highlightsList: [
                 "🏆 SAF2023 Sualtı Aracı Yarışması - Şampiyon (Azerbaycan)",
-                "🚀 NASA Local Leader - Space Apps Challenge Organizatörü",
-                "🔬 TÜBITAK Araştırma Projesi Desteği (Mudhiş)",
-                "💼 Kardelen Yazılım'da Yapay Zeka Geliştiricisi",
+                "🔬 TÜBITAK Araştırma Projesi Desteği (Mudhiş Akıllı Diş Fırçası)",
+                "💼 Kardelen Yazılım'da Yapay Zeka Geliştiricisi (Sağlık AI Sistemleri)",
                 "🎓 Bilgisayar Mühendisliği, Çukurova Üniversitesi (2024)",
-                "👥 Yazılım Takım Lideri, 1.5 Adana AITO (2022-2024)"
+                "🎮 Platformlar Arası Oyun Geliştirme (Unity, VR, Mobile)",
+                "🤖 Üretime Hazır AI/ML Sistemleri (LangChain, RAG, Computer Vision)"
             ],
             technologies: "Teknolojiler",
             techCategories: {
                 ai: {
                     title: "AI & ML",
-                    list: "PyTorch, TensorFlow, .NET ML, OpenCV"
+                    list: "PyTorch, TensorFlow, LangChain, OpenCV, RAG, LLMs"
                 },
                 game: {
                     title: "Oyun Geliştirme",
