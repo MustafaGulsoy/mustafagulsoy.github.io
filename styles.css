@@ -277,19 +277,41 @@ section {
     border-radius: var(--border-radius);
 }
 
+/* Support both <img> and <picture> elements */
 .project-image {
     width: 100%;
     max-width: 100%;
     height: auto;
     border-radius: var(--border-radius);
-    object-fit: cover;
-    aspect-ratio: 16 / 9;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     position: absolute;
     top: 0;
     left: 0;
     opacity: 0;
     transition: opacity 0.8s ease-in-out;
+    display: block;
+}
+
+.project-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    aspect-ratio: 16 / 9;
+}
+
+/* Direct img elements without picture wrapper */
+img.project-image {
+    object-fit: cover;
+    aspect-ratio: 16 / 9;
+}
+
+/* Responsive aspect ratio for project images */
+@media (max-width: 768px) {
+    .project-image img,
+    img.project-image {
+        aspect-ratio: 1 / 1;
+    }
 }
 
 .project-image.active {
